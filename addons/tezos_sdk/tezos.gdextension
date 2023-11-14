@@ -1,0 +1,13 @@
+[configuration]
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = 4.1
+
+[libraries]
+linux.debug.x86_64 = "res://target/debug/libgodot_tezos_sdk.so"
+linux.release.x86_64 = "res://target/release/libgodot_tezos_sdk.so"
+windows.debug.x86_64 = "res://target/debug/godot_tezos_sdk.dll"
+windows.release.x86_64 = "res://target/release/godot_tezos_sdk.dll"
+macos.debug = "res://target/debug/libgodot_tezos_sdk.dylib"
+macos.release = "res://target/release/libgodot_tezos_sdk.dylib"
+macos.debug.arm64 = "res://target/debug/libgodot_tezos_sdk.dylib"
+macos.release.arm64 = "res://target/release/libgodot_tezos_sdk.dylib"
