@@ -29,3 +29,10 @@ func test_unpack_to_json():
 	var json = JSON.parse_string(ds)
 	# TODO: Can we make this nicer?
 	assert_eq(json["string"], "Example Coin")
+
+func test_unsigned_operation():
+	var uo = TezosOperation.make_unsigned()
+	assert_eq(uo, "test")
+
+func test_parameters():
+	pass
